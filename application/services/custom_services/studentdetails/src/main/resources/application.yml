@@ -1,0 +1,42 @@
+spring:
+  data:
+    mongodb:
+      uri: ${MONGO_DB_URL}
+server:
+  port: 8090
+
+logging:
+  file:
+    name: logs/demo1.log
+    path: demo1
+  level:
+    com.geppetto: info
+  pattern:
+    dateformat: "dd-MM-yyyy hh:mm:ss aa"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
